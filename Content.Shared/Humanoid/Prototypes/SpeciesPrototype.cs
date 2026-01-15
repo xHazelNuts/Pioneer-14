@@ -1,0 +1,213 @@
+using Content.Shared.Dataset;
+using Content.Shared.Humanoid.Markings;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+
+namespace Content.Shared.Humanoid.Prototypes;
+
+[Prototype]
+public sealed partial class SpeciesPrototype : IPrototype
+{
+    /// <summary>
+    /// Prototype ID of the species.
+    /// </summary>
+    [IdDataField]
+    public string ID { get; private set; } = default!;
+
+    /// <summary>
+    /// User visible name of the species.
+    /// </summary>
+    [DataField(required: true)]
+    public string Name { get; private set; } = default!;
+
+    /// <summary>
+    ///     Descriptor. Unused...? This is intended
+    ///     for an eventual integration into IdentitySystem
+    ///     (i.e., young human person, young lizard person, etc.)
+    /// </summary>
+    [DataField]
+    public string Descriptor { get; private set; } = "humanoid";
+
+    /// <summary>
+    /// Whether the species is available "at round start" (In the character editor)
+    /// </summary>
+    [DataField(required: true)]
+    public bool RoundStart { get; private set; } = false;
+
+    // The below two are to avoid fetching information about the species from the entity
+    // prototype.
+
+    // This one here is a utility field, and is meant to *avoid* having to duplicate
+    // the massive SpriteComponent found in every species.
+    // Species implementors can just override SpriteComponent if they want a custom
+    // sprite layout, and leave this null. Keep in mind that this will disable
+    // sprite accessories.
+
+    [DataField("sprites")]
+    public ProtoId<HumanoidSpeciesBaseSpritesPrototype> SpriteSet { get; private set; } = default!;
+
+    /// <summary>
+    ///     Default skin tone for this species. This applies for non-human skin tones.
+    /// </summary>
+    [DataField]
+    public Color DefaultSkinTone { get; private set; } = Color.White;
+
+    /// <summary>
+    ///     Default human skin tone for this species. This applies for human skin tones.
+    ///     See <see cref="SkinColor.HumanSkinTone"/> for the valid range of skin tones.
+    /// </summary>
+    [DataField]
+    public int DefaultHumanSkinTone { get; private set; } = 20;
+
+    /// <summary>
+    ///     The limit of body markings that you can place on this species.
+    /// </summary>
+    [DataField("markingLimits")]
+    public ProtoId<MarkingPointsPrototype> MarkingPoints { get; private set; } = default!;
+
+    /// <summary>
+    ///     Humanoid species variant used by this entity.
+    /// </summary>
+    [DataField(required: true)]
+    public EntProtoId Prototype { get; private set; } = default!;
+
+    /// <summary>
+    /// Prototype used by the species for the dress-up doll in various menus.
+    /// </summary>
+    [DataField(required: true)]
+    public EntProtoId DollPrototype { get; private set; } = default!;
+
+    /// <summary>
+    /// Allow custom species name for this species.
+    /// </summary>
+    [DataField]
+    public bool CustomName { get; private set; } = false;
+
+    /// <summary>
+    /// Method of skin coloration used by the species.
+    /// </summary>
+    [DataField(required: true)]
+    public HumanoidSkinColor SkinColoration { get; private set; }
+
+    /// <summary>
+    /// Method of eye coloration used by the species.
+    /// </summary>
+    [DataField]
+    public HumanoidEyeColor EyeColoration { get; private set; } = HumanoidEyeColor.Standard;
+
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> MaleFirstNames { get; private set; } = "NamesFirstMale";
+
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> FemaleFirstNames { get; private set; } = "NamesFirstFemale";
+
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> LastNames { get; private set; } = "NamesLast";
+
+    [DataField]
+    public SpeciesNaming Naming { get; private set; } = SpeciesNaming.FirstLast;
+
+    [DataField]
+    public List<Sex> Sexes { get; private set; } = new() { Sex.Male, Sex.Female };
+
+    /// <summary>
+    ///     Characters younger than this are too young to be hired by Nanotrasen.
+    /// </summary>
+    [DataField]
+    public int MinAge = 18;
+
+    /// <summary>
+    ///     Characters younger than this appear young.
+    /// </summary>
+    [DataField]
+    public int YoungAge = 30;
+
+    /// <summary>
+    ///     Characters older than this appear old. Characters in between young and old age appear middle aged.
+    /// </summary>
+    [DataField]
+    public int OldAge = 60;
+
+    /// <summary>
+    ///     Characters cannot be older than this. Only used for restrictions...
+    ///     although imagine if ghosts could age people WYCI...
+    /// </summary>
+    [DataField]
+    public int MaxAge = 120;
+
+    /// <summary>
+    /// Minimum width multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float MinWidth = 0.9f;
+
+    /// <summary>
+    /// Maximum width multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float MaxWidth = 1.1f;
+
+    /// <summary>
+    /// Default width multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float DefaultWidth = 1f;
+
+    /// <summary>
+    /// Minimum height multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float MinHeight = 0.9f;
+
+    /// <summary>
+    /// Maximum height multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float MaxHeight = 1.15f;
+
+    /// <summary>
+    /// Default height multiplier for this species.
+    /// </summary>
+    [DataField]
+    public float DefaultHeight = 1f;
+
+    /// <summary>
+    /// Standard height in CM if 1x tall.
+    /// </summary>
+    [DataField]
+    public int StandardSize = 170;
+
+    /// <summary>
+    /// Standard weight in KG if 1x tall and 1x wide.
+    /// </summary>
+    [DataField]
+    public int StandardWeight = 70;
+
+    /// <summary>
+    /// Weight density scalar.
+    /// </summary>
+    [DataField]
+    public int StandardDensity = 110;
+
+    /// <summary>
+    /// Roundstart cybernetics points for this species.
+    /// </summary>
+    [DataField]
+    public int RoundstartCyberwareCapacity = 3;
+
+    /// <summary>
+    ///     Frontier: Forced marking color for this species, used for overwrites to force marking to use a single color, eg for Sheleg hair.
+    /// </summary>
+    [DataField]
+    public Color ForcedMarkingColor { get; private set; } = new();
+}
+
+public enum SpeciesNaming : byte
+{
+    First,
+    FirstLast,
+    FirstDashFirst,
+    LastNoFirst, // Nyano - Summary: for Oni naming
+    TheFirstofLast,
+    LastFirst, // DeltaV
+}

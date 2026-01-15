@@ -1,0 +1,44 @@
+<Document>
+  # INVESTIGATOR-CLASS RESEARCH SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="ComplexXenoArtifactItem"/>
+  <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+  <GuideEntityEmbed Entity="ComputerTabletopAnalysisConsole"/>
+  <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapInvestigator" Caption=""/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Medium
+
+  [color=#a4885c]Recommended Crew:[/color] 2-3
+
+  [color=#a4885c]Power Gen Type:[/color] Solar/Plasma
+
+  # Shuttle Brief
+
+  "A medium research shuttle designed for xenoarcheological studies."
+
+  # Shuttle Functions
+
+  # Science
+
+  [textlink="Science" link="Science"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+
+</Document>

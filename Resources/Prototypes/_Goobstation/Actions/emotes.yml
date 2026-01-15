@@ -1,0 +1,29 @@
+- type: emote
+  id: Spin
+  name: chat-emote-name-spin
+  chatMessages: ["chat-emote-msg-spin"]
+  available: false
+  icon: _Impstation/Interface/Emotes/spin.png #imp
+  chatTriggers:
+  - spin
+  - spins
+  - spins.
+  - spins!
+  event: !type:AnimationSpinEmoteEvent
+
+- type: emote
+  id: Jump
+  name: chat-emote-name-jump
+  chatMessages: ["chat-emote-msg-jump"]
+  available: false
+  icon: _Impstation/Interface/Emotes/jump.png #imp
+  chatTriggers:
+  - jump
+  - jumps
+  - jumps.
+  - jumps!
+  - bounce
+  - bounces
+  - bounces.
+  - bounces!
+  event: !type:AnimationJumpEmoteEvent

@@ -1,0 +1,47 @@
+<Document>
+  # AKUPARA-CLASS BOTANICAL SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="ChemMaster"/>
+  <GuideEntityEmbed Entity="SeedExtractor"/>
+  <GuideEntityEmbed Entity="hydroponicsSoil"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ChemistryBottleUnstableMutagen"/>
+  <GuideEntityEmbed Entity="FoodSpacemansTrumpet"/>
+  <GuideEntityEmbed Entity="GasVentScrubber"/>
+  <GuideEntityEmbed Entity="StorageCanister"/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Medium
+
+  [color=#a4885c]Recommended Crew:[/color] 1-3
+
+  [color=#a4885c]Power Gen Type:[/color] Uranium
+
+  # Shuttle Brief
+
+  "A medium full-feature botanical research biodome equipped to help a botanist fully interact with their plants in almost any way conceivable."
+
+  # Medical
+
+  [textlink="Chemistry" link="Chemist"/]
+
+  [textlink="Chemicals" link="Chemicals"/]
+
+  [textlink="Botany" link="Botany"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+</Document>

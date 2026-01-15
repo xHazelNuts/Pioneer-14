@@ -1,0 +1,18 @@
+<Document>
+  # Dwarves
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
+  </Box>
+
+  An industrious species, dwarves are similar to humans in most respect, but can be resuscitated with alcohol and at worst will face only a killer hangover from severe drinking.
+
+  <Box>
+    <GuideEntityEmbed Entity="WallRockChromiteDiamond" Caption=""/>
+    <GuideEntityEmbed Entity="WallRockBasaltBananium" Caption=""/>
+    <GuideEntityEmbed Entity="NFWallRockBluespace" Caption=""/>
+  </Box>
+
+  A dwarf instinctively knows where the choice ore veins are on any rock, and can sense the presence of ore up to 5 meters away.
+
+</Document>

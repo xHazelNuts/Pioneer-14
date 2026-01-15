@@ -1,0 +1,48 @@
+<Document>
+    # EAGLE-CLASS MEDICAL SHUTTLE
+    <Box>
+      <GuideEntityEmbed Entity="ComputerCrewMonitoring"/>
+      <GuideEntityEmbed Entity="RollerBed"/>
+      <GuideEntityEmbed Entity="StasisBed"/>
+	  <GuideEntityEmbed Entity="ChemMaster"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="ShuttleMapEagle" Caption=""/>
+    </Box>
+  
+    [color=#a4885c]Ship Size:[/color] Medium
+
+    [color=#a4885c]Recommended Crew:[/color] 2-4
+
+    [color=#a4885c]Power Gen Type:[/color] Uranium
+
+  # Shuttle Brief
+
+  "A modern, medium-sized medical & engineering vessel. Focusing on responding to shuttle distress, Eagle bears the motto 'Recover, Restore, Repair!'."
+
+  # Ship Functions
+
+  # Medical
+
+  [textlink="Medicine" link="Medical Doctor"/]
+
+  [textlink="Chemistry" link="Chemist"/]
+
+  [textlink="Chemicals" link="Chemicals"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+</Document>

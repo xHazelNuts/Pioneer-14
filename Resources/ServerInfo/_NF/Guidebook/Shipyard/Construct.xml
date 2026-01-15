@@ -1,0 +1,39 @@
+<Document>
+  # CONSTRUCT-CLASS SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="Wrench"/>
+  <GuideEntityEmbed Entity="ClothingHeadHelmetEVALarge"/>
+  <GuideEntityEmbed Entity="ClothingOuterHardsuitEVA"/>
+  <GuideEntityEmbed Entity="SheetSteel"/>
+  </Box>  
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapConstruct" Caption=""/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Small (Micro)
+
+  [color=#a4885c]Recommended Crew:[/color] Legally we can't recommend anyone use this shuttle.
+
+  [color=#a4885c]Power Gen Type:[/color] Plasma
+
+  # Shuttle Brief
+
+  "Technically a spacefaring vessel. No livery. Perfect for engineers wishing to build theirown shuttle*."
+
+  # Ship Functions
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+</Document>

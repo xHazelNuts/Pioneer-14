@@ -1,0 +1,52 @@
+<Document>
+  # BARGE-CLASS CARGO SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="OreProcessor"/>
+  <GuideEntityEmbed Entity="VendingMachineSalvage"/>
+  <GuideEntityEmbed Entity="VendingMachineBooze"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureNormal" Caption="trading crate"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="trading crate"/>
+  </Box>
+  <Box>
+   <GuideEntityEmbed Entity="ShuttleMapBarge" Caption=""/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Medium
+
+  [color=#a4885c]Recommended Crew:[/color] 2-4
+
+  [color=#a4885c]Power Gen Type:[/color] Solar/Uranium
+
+  # Shuttle Brief
+
+  "An endurance cruiser designed for long term salvage and cargo work deployments in deep space."
+
+  # Ship Functions
+
+<Box>
+  <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Bolt Exterior Airlocks"/>
+  <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Power Down Thrusters"/>
+  <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Toggle Shutters"/>
+  <GuideEntityEmbed Entity="ButtonFrameJanitor" Caption="Toggle Generator Power"/>
+</Box>
+
+  # Cargo
+
+  [textlink="Cargo Hauling" link="CargoHauling"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+
+</Document>

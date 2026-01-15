@@ -1,0 +1,40 @@
+<Document>
+  # CAMPER-CLASS PERSONAL SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="ChairPilotSeat" Caption="Cockpit"/>
+  <GuideEntityEmbed Entity="Bed" Caption="Bedroom"/>
+  <GuideEntityEmbed Entity="KitchenKnife" Caption="Kitchen"/>
+  <GuideEntityEmbed Entity="ToiletEmpty" Caption="Bathroom"/>
+  <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle" Caption="Maintenance"/>
+  </Box>
+
+  [color=#a4885c]Ship Size:[/color] Small
+
+  [color=#a4885c]Recommended Crew:[/color] 1-2
+
+  [color=#a4885c]Power Gen Type:[/color] Plasma
+
+  # Shuttle Brief
+
+  "The SSF Camper is a mobile home designed for nomads. Equipped with a kitchen, toilet, and bedroom, this shuttle is more than enough to support one or two spacers for long-term habitation."
+
+  [italic]Brought to you by Settler's Shipbuilding Firm.[/italic]
+
+  # Ship Functions
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+</Document>

@@ -1,0 +1,39 @@
+<Document>
+  # MCDELIVERY FRANCHISE SHUTTLE
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadHatMcCrown"/>
+    <GuideEntityEmbed Entity="HappyHonkMcCargo"/>
+    <GuideEntityEmbed Entity="CrateFoodMcCargo"/>    
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapMcDelivery" Caption=""/>
+  </Box>
+  [color=#a4885c]Ship Size:[/color] Micro
+
+  [color=#a4885c]Recommended Crew:[/color] 1
+
+  [color=#a4885c]Power Gen Type:[/color] WeldFuel
+
+  # Shuttle Brief
+
+  "A delivery ship build for McCargo. Your meal is approaching. Rapidly."
+
+  # Ship Functions
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+
+</Document>

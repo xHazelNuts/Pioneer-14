@@ -1,0 +1,31 @@
+<Document>
+# Technologies
+
+All technologies have a cost and a tier requirement in order to be researched. Unlocking them adds a variety of recipes that can be printed at various lathes.
+
+The different technologies and their respective discipline are listed below.
+
+<!-- Frontier: all disciplines below swapped to NF variants -->
+
+## Engineering
+<GuideTechDisciplineEmbed Discipline="NFEngineering"/>
+
+## Medical
+<GuideTechDisciplineEmbed Discipline="NFMedical"/>
+
+## Mercenary
+<GuideTechDisciplineEmbed Discipline="NFArsenalMercenary"/>
+
+## NFSD
+<GuideTechDisciplineEmbed Discipline="NFArsenalNfsd"/>
+
+## Salvage
+<GuideTechDisciplineEmbed Discipline="NFSalvage"/>
+
+## Science
+<GuideTechDisciplineEmbed Discipline="NFScience"/>
+
+## Service
+<GuideTechDisciplineEmbed Discipline="NFService"/>
+
+</Document>
