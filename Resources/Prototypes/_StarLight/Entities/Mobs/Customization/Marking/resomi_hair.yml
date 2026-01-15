@@ -303,3 +303,75 @@
   sprites:
     - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
       state: ResomiSweptup
+
+- type: marking
+  id: HairResomi80s
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: Resomi80s
+
+- type: marking
+  id: HairResomiUnkept
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiUnkept
+
+- type: marking
+  id: HairResomiOverEyePigtail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiOverEyePigtail
+
+- type: marking
+  id: HairResomiLong2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiLong2
+
+- type: marking
+  id: HairResomiHighPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiHighPonytail
+
+- type: marking
+  id: HairResomiBigPompadour
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiBigPompadour
+
+- type: marking
+  id: HairResomiBedhead
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiBedhead
+
+- type: marking
+  id: HairResomiBeehive
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Resomi ]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/Resomi/resomi_hair.rsi
+      state: ResomiBeehive
